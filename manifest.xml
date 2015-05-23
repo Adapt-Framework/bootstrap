@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adapt_framework>
+    <bundle>
+        <name>Bootstrap</name>
+        <type>Framework</type>
+        <version>3.3.2</version>
+        <namespace>/framework/bootstrap</namespace>
+        <description></description>
+        <copyright>2015 - Twitter</copyright>
+        <license>MIT</license>
+        <website>http://www.getbootstrap.com</website>
+        <depends_on>
+            <bundle>jquery</bundle>
+        </depends_on>
+        <installed>Yes</installed>
+    </bundle>
+</adapt_framework>
