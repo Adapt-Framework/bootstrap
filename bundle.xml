@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <adapt_framework>
   <bundle>
-    <label>Bootstrap</label>
     <name>bootstrap</name>
-    <type>framework</type>
     <version>3.3.2</version>
+    <version_status>release</version_status>
+    <availability>public</availability>
+    <type>css_framework</type>
     <namespace>\bootstrap</namespace>
-    <description>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</description>
-    <copyright>2015 Twitter</copyright>
+    <label>Bootstrap</label>
+    <description>Bootstrap is the most popular HTML, CSS and JS framework for developing responsive, mobile first projects on the web.</description>
+    <copyright>2011 - 2016 Twitter</copyright>
     <license>MIT</license>
+    <vendor>
+        <name>Adapt Framework</name>
+        <website>https://www.adaptframework.com</website>
+    </vendor>
     <settings>
       <category name="Mobile display">
         <setting>
@@ -30,7 +36,7 @@
       </bundle>
       <bundle>
         <name>adapt</name>
-        <version>2</version>
+        <version>2.0</version>
       </bundle>
     </depends_on>
   </bundle>
